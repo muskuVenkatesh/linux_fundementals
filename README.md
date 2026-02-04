@@ -16,6 +16,13 @@ mv example.txt renamed_example.txt
 ls
 
 ```
+### Explaiantion
+#### 1. mkdir test_dir creates a new directory named test_dir
+#### 2. cd test_dir navigates into the directory
+#### 3 .touch example.txt creates an empty file
+#### 4 .mv example.txt renamed_example.txt renames the file
+
+ls lists the files inside the directory
 ## 2. Viewing File Contents
 
 ### Commands
