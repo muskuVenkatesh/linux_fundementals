@@ -16,6 +16,7 @@ mv example.txt renamed_example.txt
 ls
 
 ```
+![Screenshot output](screeshots/Screenshot_2026-02-04_214154.png)
 ### Explaiantion
 #### 1. mkdir test_dir creates a new directory named test_dir
 #### 2. cd test_dir navigates into the directory
