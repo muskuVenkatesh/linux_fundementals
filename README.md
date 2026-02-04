@@ -15,3 +15,7 @@ touch example.txt
 mv example.txt renamed_example.txt
 ls
 
+## 1. Creating and Renaming Files/Directories
+
+
+
