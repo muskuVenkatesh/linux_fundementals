@@ -96,7 +96,7 @@ ls -l secure.txt
 export MY_VAR="Hello, Linux!"
 echo $MY_VAR
 ```
-![Screenshot output](screeshots/Screenshot_2026-02-04_215456png)
+![Screenshot output](screeshots/Screenshot_2026-02-04_215456.png)
 
 ### Explaination
 #### 1.export MY_VAR="Hello, Linux!" creates an environment variable named MY_VAR
