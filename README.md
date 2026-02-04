@@ -15,7 +15,63 @@ touch example.txt
 mv example.txt renamed_example.txt
 ls
 
-## 1. Creating and Renaming Files/Directories
+```
+## 2. Viewing File Contents
+
+### Commands
+```bash 
+cat /etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+```
+
+## 3. Searching for Patterns Using grep
+
+### Command
+```bash 
+grep "root" /etc/passwd
+```
+
+## 4. Zipping and Unzipping Directories
+
+### Commands 
+
+```bash 
+cd ..
+zip -r test_dir.zip test_dir
+mkdir unzipped_dir
+unzip test_dir.zip -d unzipped_dir
+
+```
+
+## 5.Downloading Files Using wget
+
+### commands
+
+```bash
+wget https://example.com/sample.txt
+```
+
+## 6. Changing File Permissions
+
+### Commands
+
+```bash
+touch secure.txt
+chmod 444 secure.txt
+ls -l secure.txt
+```
+
+## 7. Working with Environment Variables
+
+### Commands
+
+```bash
+export MY_VAR="Hello, Linux!"
+echo $MY_VAR
+```
+
+
 
 
 
