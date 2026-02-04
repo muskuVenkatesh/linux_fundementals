@@ -31,6 +31,10 @@ cat /etc/passwd
 head -n 5 /etc/passwd
 tail -n 5 /etc/passwd
 ```
+### Explanation
+#### 1.cat /etc/passwd displays the entire content of the /etc/passwd file
+#### 2.head -n 5 /etc/passwd displays only the first 5 lines of the file
+#### 3.tail -n 5 /etc/passwd displays only the last 5 lines of the file
 
 ## 3. Searching for Patterns Using grep
 
@@ -38,45 +42,52 @@ tail -n 5 /etc/passwd
 ```bash 
 grep "root" /etc/passwd
 ```
+### Explaination
+#### 1. grep "root" /etc/passwd searches the /etc/passwd file and displays all lines that contain the word root
 
 ## 4. Zipping and Unzipping Directories
-
 ### Commands 
-
 ```bash 
 cd ..
 zip -r test_dir.zip test_dir
 mkdir unzipped_dir
 unzip test_dir.zip -d unzipped_dir
-
 ```
+### Explaiantion
+#### 1.cd .. moves one directory back
+#### 2.zip -r test_dir.zip test_dir compresses the test_dir directory into a zip file named test_dir.zip
+#### 3.mkdir unzipped_dir creates a new directory named unzipped_dir
+#### 4.unzip test_dir.zip -d unzipped_dir extracts the zip file into the unzipped_dir directory
 
 ## 5.Downloading Files Using wget
-
 ### commands
-
 ```bash
 wget https://example.com/sample.txt
 ```
+### Explaiantion
+#### wget https://example.com/sample.txt downloads a file from the given URL and saves it in the current directory
 
 ## 6. Changing File Permissions
-
 ### Commands
-
 ```bash
 touch secure.txt
 chmod 444 secure.txt
 ls -l secure.txt
 ```
+### Explaiantion
+#### touch secure.txt creates a new file named secure.txt
+#### chmod 444 secure.txt changes the file permissions to read-only for owner, group, and others
+#### ls -l secure.txt displays the file permissions in long listing format
 
 ## 7. Working with Environment Variables
-
 ### Commands
-
 ```bash
 export MY_VAR="Hello, Linux!"
 echo $MY_VAR
 ```
+### Explaination
+#### 1.export MY_VAR="Hello, Linux!" creates an environment variable named MY_VAR
+#### 2.echo $MY_VAR displays the value stored in the environment variable
 
 
 
